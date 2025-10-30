@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<!-- ===================== HEADER ===================== -->
 <header>
   <div class="container nav">
     <a class="logo" href="index.html"><span>Your</span> Restaurant</a>
@@ -29,9 +31,10 @@
   </div>
 </header>
 
+<!-- ===================== MENU SECTION ===================== -->
 <section class="container">
   <h2>Menu</h2>
-  <p class="lead">Pick your favorite — all made to order.</p>
+  <p class="lead">Pick your favorite — all made fresh to order.</p>
 
   <div class="grid">
 
@@ -40,8 +43,9 @@
       <img src="delicious-grilled-burgers-600nw-1146199442.webp" alt="Classic Burger">
       <div class="body">
         <h3>Classic Burger</h3>
-        <p class="muted">Beef, cheddar, house sauce</p>
-        <div class="price">$8.99</div>
+        <p class="muted">Beef patty, cheddar cheese, house sauce</p>
+        <div class="price" data-price="8.99">$8.99</div>
+        <button class="btn add-cart">Add to Cart</button>
       </div>
     </article>
 
@@ -50,8 +54,9 @@
       <img src="Vegan-Chili-Cheese-Fries-SQUARE.jpg" alt="Cheese Fries">
       <div class="body">
         <h3>Cheese Fries</h3>
-        <p class="muted">Crispy fries topped with cheddar and jalapeño</p>
-        <div class="price">$4.99</div>
+        <p class="muted">Crispy fries topped with cheddar & jalapeño</p>
+        <div class="price" data-price="4.99">$4.99</div>
+        <button class="btn add-cart">Add to Cart</button>
       </div>
     </article>
 
@@ -60,8 +65,9 @@
       <img src="buffalo-wings-overhead-horizontal-WR-scaled.jpg" alt="Buffalo Wings">
       <div class="body">
         <h3>Buffalo Wings</h3>
-        <p class="muted">6pc with ranch & celery</p>
-        <div class="price">$7.49</div>
+        <p class="muted">6pc wings served with ranch & celery</p>
+        <div class="price" data-price="7.49">$7.49</div>
+        <button class="btn add-cart">Add to Cart</button>
       </div>
     </article>
 
@@ -70,8 +76,9 @@
       <img src="chicken-burger-cheese-tomatoes-lettuce-sauce-slate-black-background-close-up-156186015.webp" alt="Chicken Sandwich">
       <div class="body">
         <h3>Chicken Sandwich</h3>
-        <p class="muted">Crispy buttermilk fried chicken, lettuce, tomato</p>
-        <div class="price">$9.49</div>
+        <p class="muted">Crispy buttermilk chicken, lettuce, tomato</p>
+        <div class="price" data-price="9.49">$9.49</div>
+        <button class="btn add-cart">Add to Cart</button>
       </div>
     </article>
 
@@ -80,8 +87,9 @@
       <img src="360_F_579293835_xEpErfrmObPkdTHPSLlzjlfSvZSyzsHp.jpg" alt="Vanilla Shake">
       <div class="body">
         <h3>Vanilla Shake</h3>
-        <p class="muted">Thick & creamy whipped topping</p>
-        <div class="price">$4.49</div>
+        <p class="muted">Thick & creamy vanilla ice cream blend</p>
+        <div class="price" data-price="4.49">$4.49</div>
+        <button class="btn add-cart">Add to Cart</button>
       </div>
     </article>
 
@@ -90,20 +98,25 @@
       <img src="istockphoto-453952167-612x612.jpg" alt="Garden Salad">
       <div class="body">
         <h3>Garden Salad</h3>
-        <p class="muted">Fresh greens, tomatoes, onions, vinaigrette</p>
-        <div class="price">$6.99</div>
+        <p class="muted">Fresh greens, tomato, cucumber, vinaigrette</p>
+        <div class="price" data-price="6.99">$6.99</div>
+        <button class="btn add-cart">Add to Cart</button>
       </div>
     </article>
 
   </div>
 </section>
 
+<!-- ===================== FOOTER ===================== -->
 <footer>
   <div class="container foot">
     <div>© Your Restaurant</div>
     <div class="hours"><strong>Hours:</strong> Mon–Thu 11–22 · Fri–Sat 11–24 · Sun 12–21</div>
   </div>
 </footer>
+
+<!-- ===================== SCRIPT ===================== -->
+<script src="script.js"></script>
 
 </body>
 </html>
